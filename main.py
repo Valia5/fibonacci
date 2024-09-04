@@ -14,7 +14,7 @@ file1=open("steps.txt")
 
 step=file1.read()
 res=fibonacci(int(first),int(second),int(step))
-print("Save in file")
+print("SAFE IN FILE")
 with open("result.txt",'w') as file2:
   for num in res:
     file2.write(f"{num} ")
