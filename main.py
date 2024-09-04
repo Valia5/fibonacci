@@ -13,7 +13,7 @@ second=numbers[1]
 file1=open("steps.txt")
 
 step=file1.read()
-res=fibonacci(int(first),int(second),int(step))
+res=fibonacci(float(first),float(second),int(step))
 print("SAFE IN FILE")
 with open("result.txt",'w') as file2:
   for num in res:
