@@ -1,6 +1,6 @@
 def fibonacci(first,second,step):
   if step<=0:
-      print("Enter positive integer")
+      print("Enter positive integer+")
 
   list_fibonacci = [first]
   if step>1:
